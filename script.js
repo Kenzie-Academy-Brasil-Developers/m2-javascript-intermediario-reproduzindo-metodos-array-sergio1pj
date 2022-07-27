@@ -40,8 +40,7 @@ function callbackReduce(acumulator, valorAtual) {
   return acumulator + valorAtual;
 }
 function reduce(array, callback, initialValue) {
-  let indexInicial
-  let acumulador
+  let indexInicial, acumulador;
   if(initialValue === undefined) {
     acumulador = array[0];
     indexInicial = 1;  
